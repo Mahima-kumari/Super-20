@@ -1,0 +1,102 @@
+/*===========ACHEIVEMENTS========*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+.hi1{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.hi3{
+    font-size: 1.1rem;
+    color: #fefefe;
+}
+.about_achievement{
+
+background-color: #42032C;
+color: white;
+font-family: 'Montserrat', sans-serif;
+}
+.about_achievement-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+.images{
+    width: 100%;
+    margin: auto;
+}
+
+.about_achievement-right > p {
+    margin: 1.6rem 0 2.5rem;
+    font-size: 1.2rem;
+}
+
+.achievements_cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achievement_card{
+    background: #630752;
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.achievement_card:hover {
+    background: #9e0381;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.achievement_icon {
+    background: #f75842;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #fefefe;
+}
+.achievement_card:nth-child(2) .achievement_icon{
+    background: #dcc30a;
+}
+.achievement_card:nth-child(3) .achievement_icon{
+    background: #57b70e;
+}
+.achievement_card p{
+    margin-top: 1rem;
+    color: #fefefe;
+}
+
+/*===========MEDUIA QUERIES========*/
+@media screen and (max-width:1024px) {
+
+  .about_achievement{
+      margin-top: 2rem;
+  }
+  .images{
+      margin: auto;
+  }
+  .about_achievement-container{
+      grid-template-columns: 1fr;
+      gap: 4rem;
+  }
+  .about_achievement-left {
+     width: 80%;
+      margin: 0 auto;
+  }
+  .achievements_cards{
+      margin: auto;
+  }
+  
+
+}
+    
+
+
+

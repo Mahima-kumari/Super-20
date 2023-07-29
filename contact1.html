@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!--icon-->
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"> 
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style copy.css" />
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free-6.2.0-web/css/all.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+ 
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+<!-- Nav section starts    -->
+
+<div id="navbar">
+  <ul class="nav">
+      <li class="navItem logo"><img width="200px" height="100px" class="logoImg" src="assets/logo.png" title="logo"></li>
+
+      <div class="navSmContainer topnav">
+          <li class="navItem"><a class="navLink" href="index.html">Home</a></li>
+          <li class="navItem"><a class="navLink" href="abouts.html">About</a></li>
+
+          <div class="dropdown navItem">
+              <span class="navLink">NCERT Solutions</span>
+              <div class="dropdown-content">
+                  <a href="ncert.html">Class 12 NCERT Solutions</a>
+                  <a href="ncert.html">Class 11 NCERT Solutions</a>
+                  <a href="ncert.html">Class 10 NCERT Solutions</a>
+                  <a href="ncert.html">Class 9 NCERT Solutions</a>
+                  <a href="ncert.html">Class 8 NCERT Solutions</a>
+              </div>
+          </div>
+
+          <div class="dropdown navItem">
+              <span class="navLink">
+                  Popular Book
+              </span>
+              <div class="dropdown-content">
+                  <a href="#">RD Sharma</a>
+                  <a href="#">HC Verma</a>
+                  <a href="#">RG Agarwal</a>
+                  <a href="#">Pradeep</a>
+                  <a href="#">Lakhmir Mangeet Singh</a>
+              </div>
+          </div>
+
+          <div class="dropdown navItem">
+              <span class="navLink">Notes</span>
+              <div class="dropdown-content">
+                  <a href="notes.html">Class 12 Notes</a>
+                  <a href="notes.html">Class 11 Notes</a>
+                  <a href="notes.html">Class 10 Notes</a>
+                  <a href="notes.html">Class 9 Notes</a>
+                  <a href="notes.html">Class 8 Notes</a>
+              </div>
+          </div>
+
+          <div class="dropdown navItem">
+              <span class="navLink">TextBook</span>
+              <div class="dropdown-content">
+                  <a href="books.html">NCERT</a>
+                  <a href="books.html">RD Sharma</a>
+                  <a href="books.html">HC Verma</a>
+                  <a href="books.html">RG Agarwal</a>
+                  <a href="books.html">Pradeep</a>
+                  <a href="books.html">Lakhmir Mangeet Singh</a>
+              </div>
+          </div>
+
+          <li class="navItem searchIcon">
+              <input type="text" id="searchIcon" class="none inputfield" placeholder="search" autocomplete="off">
+              <a id="search" class="navLink" href="#search">
+                  <i title="search" class="icon fa-solid fa-magnifying-glass">
+                  </i>
+              </a>
+          </li>
+
+          <li class="navItem">
+              <a class="navLink" href="contact1.html">
+                  <i title="contact" class="icon callIcon fa-solid fa-phone-volume"></i>
+              </a>
+          </li>
+
+          <li class="navItem button">
+              <a title="login" class="navLink btn loginBtn" href="login.html">login</a>
+          </li>
+
+          <li class="dropdownLink">
+              <a onclick="toggleDropdown()" href="javascript:void(0)">&#9776;</a>
+          </li>
+      </div>
+  </ul>
+</div>
+
+<!-- Nav section ends    -->
+
+<section>
+    <div class="container">
+      
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
+
+          <div class="info">
+            <div class="information">
+             
+              <p>Sector-23, Faridabad</p>
+            </div>
+            <div class="information">
+              
+              <p>super20coachingclasses@gmail.com</p>
+            </div>
+            <div class="information">
+              
+              <p>+91 9818779629</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="iconsContainer">
+              <a class="iconLink" href="https://www.facebook.com"><i class="fa-brands fa-facebook-f iconContainer facebook"></i></a>
+              <a class="iconLink" href="instagrams"><i class="fa-brands fa-instagram iconContainer instagram"></i></a>
+              <a class="iconLink" href="#"><i class="fa-brands fa-twitter iconContainer twitter"></i></a>
+              <a class="iconLink" href="linkdin"><i class="fa-brands fa-linkedin-in iconContainer linkden"></i></a>
+              <a class="iconLink" href="youtube"><i class="fa-brands fa-youtube iconContainer youtube"></i></a>
+              <a class="iconLink" href="whatsapp"><i class="fa-brands fa-whatsapp iconContainer whatsapp"></i></a>
+          </div>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
+
+          <form action="https://formspree.io/f/mrgjyvwy" autocomplete="off" method="post">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input type="text" name="name" class="input" required>
+              <label for="">Username</label>
+              <span>Username</span>
+            </div>
+            <div class="input-container">
+              <input type="email" name="email" class="input" required>
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input type="tel" name="phone" class="input" required>
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea name="message" class="input" required></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <input type="submit" value="Send" class="btn-2" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footertop">
+    <div class="footerContainers div1">
+        <img src="assets/logo.png" class="footerlogoimg fcHading" width="160px" height="70px" title="logo">
+        <p class="footerTopP p1">lorem ipsum dolor sit amet consectectetur adipisicing elit. lure, numquarm.</p>
+    </div>
+    <div class="footerContainers div2">
+        <h1 class="fcHading">Permalinks</h1>
+        <a href="index.html" class="footerLinks">Home</a>
+        <a href="abouts.html" class="footerLinks">About</a>
+        <a href="ncert.html" class="footerLinks">Ncert solutions</a>
+        <a href="notes.html" class="footerLinks">Notes</a>
+        <a href="books.html" class="footerLinks">Books</a>
+        <a href="contact1.html" class="footerLinks">Contact</a>
+    </div>
+    <div class="footerContainers div3">
+        <h1 class="fcHading">Primacy</h1>
+        <a href="#links" class="footerLinks">Privacy Policy</a>
+        <a href="#links" class="footerLinks">Term and conditions</a>
+        <a href="#links" class="footerLinks">Refund Policy</a>
+    </div>
+    <div class="footerContainers div4">
+        <h1 class="fcHading">Contact Us</h1>
+        <p class="footerTopP">+91 9818779629<br>super20coachingclasses@gmail.com</p>
+        <div class="iconsContainer">
+            <a class="iconLink" href="https://www.facebook.com"><i class="fa-brands fa-facebook-f iconContainer facebook"></i></a>
+            <a class="iconLink" href="instagrams"><i class="fa-brands fa-instagram iconContainer instagram"></i></a>
+            <a class="iconLink" href="#"><i class="fa-brands fa-twitter iconContainer twitter"></i></a>
+            <a class="iconLink" href="linkdin"><i class="fa-brands fa-linkedin-in iconContainer linkden"></i></a>
+            <a class="iconLink" href="youtube"><i class="fa-brands fa-youtube iconContainer youtube"></i></a>
+            <a class="iconLink" href="whatsapp"><i class="fa-brands fa-whatsapp iconContainer whatsapp"></i></a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p class="footerPeragraph">Copyright ⓒ SUPER-20. All rights reserved. </p>
+</footer>
+
+
+<script src="script.js"></script>
+
+
+    <script>
+      const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
+});
+    </script>
+
+    <script>
+      const search = document.getElementById('search');
+const input = document.getElementById('searchIcon')
+
+
+search.addEventListener('click', function (e) {
+    e.preventDefault();
+    input.classList.toggle('none');
+})
+
+
+function toggleDropdown() {
+    let navbarToggle = document.getElementById("navbar-toggle");
+    if (navbarToggle.className === 'topnav') {
+        navbarToggle.className += ' responsive';
+    } else {
+        navbarToggle.className = 'topnav';
+    }
+}
+    </script>
+
+  </body>
+</html>
